@@ -25,6 +25,7 @@ public class FallingScript : MonoBehaviour
         score = 0;
         startPos = transform.position;
         rb = GetComponent<Rigidbody>();
+        rb.useGravity = false;
     }
 
     // Update is called once per frame
@@ -47,11 +48,8 @@ public class FallingScript : MonoBehaviour
             if (useGravity)
             {
                 rb.AddForce(new Vector3(0, -1.0f, 0) * rb.mass * gravity);
+                Debug.Log("Force");
             }
-        }
-        else
-        {
-            rb.useGravity = false;
         }
     }
     

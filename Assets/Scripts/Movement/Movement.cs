@@ -15,7 +15,10 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var direction = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
-        transform.Translate(direction * Time.deltaTime * speed);
+        if(GameManager.Instance.isPlaying)
+        {
+            var direction = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
+            transform.Translate(direction * Time.deltaTime * speed);
+        }
     }
 }
