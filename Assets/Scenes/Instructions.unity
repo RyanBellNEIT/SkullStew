@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 35.29666, y: -271.92816}
-  m_SizeDelta: {x: 1110.6799, y: 147.4974}
+  m_AnchoredPosition: {x: 0, y: -381.00003}
+  m_SizeDelta: {x: 1622.6418, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183273271
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1. Catch skulls in order of color on the top left screen.
+  m_Text: 1. Catch skulls in order of color on the top left screen!
 --- !u!222 &183273272
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -352,13 +352,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0176bb18c07d15643a42d0c2a3d99d5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
   skullScores:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  spalshParticle: {fileID: 0}
+  splashParticle: {fileID: 0}
   chosenSkull: 
   clips:
   - {fileID: 8300000, guid: fa7ecab5f254d466d9d0d52f78b96b9e, type: 3}
@@ -717,10 +716,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 38d7d2e58c26c6d4392e151ec0a2981b, type: 3}
-    m_FontSize: 64
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 9
+    m_MinSize: 1
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -834,7 +833,6 @@ RectTransform:
   - {fileID: 2145072136}
   - {fileID: 183273270}
   - {fileID: 2050800488}
-  - {fileID: 2127369799}
   - {fileID: 1740057144}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1136,8 +1134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.00001955, y: 70}
-  m_SizeDelta: {x: 328.8447, y: 82.4314}
+  m_AnchoredPosition: {x: -0.000022888, y: 103}
+  m_SizeDelta: {x: 522.3021, y: 130.9253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1740057145
 MonoBehaviour:
@@ -1210,7 +1208,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 328.84, y: 82.431}
+  m_SizeDelta: {x: 522.3, y: 130.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1826111948
 MonoBehaviour:
@@ -1340,8 +1338,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 15.5151, y: -444.34827}
-  m_SizeDelta: {x: 1285.4458, y: 188.8814}
+  m_AnchoredPosition: {x: -0.000030517, y: -717}
+  m_SizeDelta: {x: 1877.9648, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050800489
 MonoBehaviour:
@@ -1376,10 +1374,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '2. Catch as many skulls in order as you can. You only earn points
-
-    if
-    you get the correct skull.'
+  m_Text: 2. You only earn points if you get the correct skull, get as many as you
+    can!
 --- !u!222 &2050800490
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1387,87 +1383,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050800487}
-  m_CullTransparentMesh: 1
---- !u!1 &2127369798
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2127369799}
-  - component: {fileID: 2127369801}
-  - component: {fileID: 2127369800}
-  m_Layer: 5
-  m_Name: 3.
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2127369799
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127369798}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1458420990}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 15.5151, y: -641.5254}
-  m_SizeDelta: {x: 1285.4458, y: 188.8814}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2127369800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127369798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 38d7d2e58c26c6d4392e151ec0a2981b, type: 3}
-    m_FontSize: 51
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 209
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: '3. CHEAT: Use space bar to slow down the skulls making the game
-
-    easier.'
---- !u!222 &2127369801
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127369798}
   m_CullTransparentMesh: 1
 --- !u!1 &2145072135
 GameObject:
